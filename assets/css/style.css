@@ -1,0 +1,99 @@
+body {
+  background-color: rgba(0, 0, 0, 0.808);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 1000px;
+}
+
+main {
+  color: white;
+  width: 600px;
+  height: 700px;
+}
+
+.container {
+  background-color: rgb(138, 135, 135);
+  border-radius: 5px;
+  width: 400px;
+  height: 390px;
+  margin-left: 90px;
+  margin-top: 15px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2.2rem;
+}
+
+hr {
+  border: 0.5px solid rgb(60, 60, 112);
+}
+
+.pesos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+input {
+  height: 35px;
+  width: 300px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.Convertidor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+p {
+  font-size: 1.4rem;
+}
+
+select {
+  height: 45px;
+  width: 300px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+button {
+  height: 45px;
+  width: 300px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  background-color: rgb(64, 148, 218);
+  color: white;
+}
+
+.resultado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+#res {
+  color: white;
+}
+
+#chartCanvas {
+  width: 900px;
+  height: 600px;
+  background-color: white;
+}
